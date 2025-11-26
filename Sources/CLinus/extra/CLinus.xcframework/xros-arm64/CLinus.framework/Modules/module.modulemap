@@ -1,0 +1,6 @@
+framework module CLinus {
+    header "gmp.h"
+    header "mpfr.h"
+    link "CKalliope"
+    export *
+}

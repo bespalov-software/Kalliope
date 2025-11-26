@@ -1,0 +1,4 @@
+framework module CKalliope {
+    header "gmp.h"
+    export *
+}

@@ -1,0 +1,11 @@
+--swiftversion 6.0
+--indent 4
+--maxwidth 80
+--wraparguments before-first
+--wrapcollections before-first
+--extensionacl on-declarations
+--header strip
+--trimwhitespace always
+--linebreaks lf
+--funcattributes prev-line
+
