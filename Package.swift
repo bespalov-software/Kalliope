@@ -25,6 +25,17 @@ let package = Package(
             name: "Linus",
             targets: ["Linus"]
         ),
+        // Exposed so sibling packages (e.g. Calypso, which compiles
+        // sqlite3.c + sqlcryptex extensions against MPFR/GMP) can link the
+        // static libs directly without going through the Swift facades.
+        .library(
+            name: "CKalliope",
+            targets: ["CKalliope"]
+        ),
+        .library(
+            name: "CLinus",
+            targets: ["CLinus"]
+        ),
     ],
     dependencies: [
         .package(
